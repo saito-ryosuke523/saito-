@@ -1,22 +1,25 @@
 <?php
 //関数を実行する
-echo sum()."\n";
+echo double(2)."\n";
 echo add(2,3)."\n" ;
 // 1〜10 までを足した値を返す関数
-function sum(){
+// function sum(){
 
-    // $result は結果を保存する変数
-    $result = 0;
+//     // $result は結果を保存する変数
+//     $result = 0;
 
-    // $i は 1　からはじまり 10 より大きくなるまでループする
-    for($i = 1; $i <= 10; $i++){
+//     // $i は 1　からはじまり 10 より大きくなるまでループする
+//     for($i = 1; $i <= 10; $i++){
 
-        // $result に　$i を順番に足していく
-        $result += $i*2;
-    }
+//         // $result に　$i を順番に足していく
+//         $result += $i*2;
+//     }
 
-    // $result を結果として返す
-    return $result;
+//     // $result を結果として返す
+//     return $result;
+// }
+function double($num) {
+	return $num * 2;
 }
 
 
